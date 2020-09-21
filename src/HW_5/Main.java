@@ -4,16 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Cat: ");
-        Animal Agata = mew Cat(200,2,0);
-        Agata.run(200);
-        Agata.jump(2);
-        Agata.swim(0);
+        Cat cat = new Cat();
+        cat.run(200);
+        cat.jump(2);
+        cat.swim(0);
 
         System.out.println("Dog: ");
-        Animal Haya = mew Dog(200,2,0);
-        Haya.run(500);
-        Haya.jump(0,5);
-        Haya.swim(10);
+        Dog dog = new Dog ();
+        dog.run(500);
+        dog.jump(0.5);
+        dog.swim(10);
 
     }
 }
