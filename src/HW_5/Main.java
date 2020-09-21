@@ -9,6 +9,7 @@ public class Main {
         cat.jump(2);
         cat.swim(0);
 
+
         System.out.println("Dog: ");
         Dog dog = new Dog ();
         dog.run(500);
