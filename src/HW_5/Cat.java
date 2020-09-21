@@ -1,5 +1,5 @@
 package HW_5;
-// не пойму почему класс Cat красный
+
 
   public class Cat extends Animal {
      private final int MaxRunLenght = 200;
